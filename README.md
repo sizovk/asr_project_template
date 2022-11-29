@@ -1,16 +1,16 @@
-# ASR project
+# Automatic Speech Recognition (ASR)
 
-## Installation guide
+This repository contains code for training of DeepSpeech2 model, which have been described in the article https://arxiv.org/abs/1512.02595
 
-< Write your installation guide here >
+## Reproduce results
 
+### Install dependencies
 ```shell
 pip install -r ./requirements.txt
 ```
 
-## Run model 
+### Train model 
 
 ```shell
 python train.py -c hw_asr/configs/config.json
 ```
-
